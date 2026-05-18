@@ -1,0 +1,41 @@
+body {
+    background: #0f172a;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: cyan;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 12px;
+    background: cyan;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}

@@ -1,0 +1,120 @@
+/* Background */
+body {
+    background-color: #0f172a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Page Title */
+h1 {
+    padding: 20px 40px;
+}
+/* Payment Section */
+.payment-options {
+    margin: 15px 0;
+}
+
+.payment-options label {
+    display: block;
+    background: #0f172a;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid #334155;
+}
+/* Back to Cart Button */
+/* Back to Cart Button */
+.back-cart-btn {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    background: #334155;
+    color: #ffffff !important;   /* 🔥 force white */
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* Remove default link colors */
+.back-cart-btn:link,
+.back-cart-btn:visited {
+    color: #ffffff !important;
+}
+
+/* Hover effect */
+.back-cart-btn:hover {
+    background: #475569;
+    color: #ffffff !important;
+}
+
+.payment-options input {
+    margin-right: 10px;
+}
+
+.payment-options label:hover {
+    background: #334155;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+}
+
+/* LEFT SECTION */
+.left {
+    flex: 2;
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* RIGHT SECTION */
+.right {
+    flex: 1;
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+/* Inputs */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+/* Button */
+.btn {
+    background-color: cyan;
+    color: black;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #00e6e6;
+}
+
+/* Order Summary Items */
+.right p {
+    margin: 8px 0;
+}
+
+/* Total */
+.right h3 {
+    margin-top: 15px;
+}

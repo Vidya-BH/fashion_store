@@ -1,0 +1,62 @@
+body {
+    background: #1e1e2f;
+    color: white;
+    font-family: Arial;
+}
+
+.details-container {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+}
+
+/* IMAGE */
+.image-section img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* INFO */
+.info-section {
+    max-width: 500px;
+}
+
+.brand {
+    color: #aaa;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.desc {
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+.quantity {
+    margin: 15px 0;
+}
+
+.quantity input {
+    width: 60px;
+    padding: 5px;
+}
+
+/* BUTTONS */
+.btn {
+    background: #6be6d8;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.back-btn {
+    color: white;
+    text-decoration: none;
+}
